@@ -28,6 +28,41 @@ main {
     flex-direction: column;
 }
 
+#open-help-window {
+    position: fixed;
+    z-index: 500;
+    background-color: rgba(18,16,14,0.5);
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+
+#help-windows {
+
+}
+
+#open-help-window:target {
+    visibility: visible;
+}
+
+#success-message {
+    position: fixed;
+    z-index: 500;
+    background-color: rgba(18, 16, 14, 0.5);
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+
+#success-message:target {
+    visibility: visible;
+}
+
+#got-message {
+
+}
+
+
 /* footer */
 footer {
     background-color: #12100E;
