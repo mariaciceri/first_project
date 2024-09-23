@@ -94,6 +94,7 @@ input[type="submit"] {
     padding: 5px;
     margin: 10px 0;
     border-radius: 5px;
+    border-color: #edbd79;
 }
 
 /* closing "button" */
@@ -152,6 +153,8 @@ main {
 .main-content {
     margin-right: 20px;
     padding: 15px;
+    text-align: justify;
+    line-height: 20px;
 }
 
 main h2 {
@@ -172,11 +175,16 @@ main h2 {
     flex-wrap: wrap;
 }
 
+.main-content p {
+    text-indent: 15px;
+}
+
 #about-us img {
     height: 100%;
     width: 100%;
     vertical-align: baseline;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 
