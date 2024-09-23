@@ -61,6 +61,7 @@ main {
     text-align: center;
     line-height: 25px;
     position: absolute;
+    box-shadow: 2px 2px 2px #000000;
 }
 
 #help-window input {
@@ -70,15 +71,14 @@ main {
 input[type="submit"] {
     background-color: #CCA43B;
     padding: 5px;
-    margin-top: 10px;
+    margin: 10px 0;
     border-radius: 5px;
 }
 
 /* closing "button" */
 #help-window a {
-    text-decoration: none;
-    color: #CCA43B;
     float: right; 
+    color: #CCA43B;
 }
 
 #open-help-window:target {
@@ -92,6 +92,9 @@ input[type="submit"] {
     height: 100%;
     width: 100%;
     visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #success-message:target {
@@ -99,7 +102,22 @@ input[type="submit"] {
 }
 
 #got-message {
-    color: rgb(105, 162, 151);
+    background-color: rgba(18, 16, 14, 0.8);
+    padding: 10px 25px;
+    width: max-content;
+    height: fit-content;
+    color: #EEE5E9;
+    text-align: center;
+    line-height: 30px;
+    font-size: large;
+    position: absolute;
+    box-shadow: 2px 2px 2px #000000;
+}
+
+#got-message a {
+    color: #CCA43B;
+    text-decoration: none;
+    float: right;
 }
 
 #about {
