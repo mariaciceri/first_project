@@ -64,7 +64,6 @@ main {
     text-decoration: none;
     color: #CCA43B;
     float: right;
-    font-weight: bold;
 }
 
 #open-help-window:target {
