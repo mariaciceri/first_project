@@ -9,7 +9,7 @@
 <body>
     <header id="cover-home">
         <h1>Header</h1>
-        <nav>
+        <nav id="navbar">
             <a href="advice.html">Advice</a>
             <a href="#open-help-window">Get Help</a>
         </nav>
@@ -20,7 +20,8 @@
         <section id="open-help-window">
             <div id="help-window">
                 <form action="#success-message" method="GET">
-                    <a href="#">X</a>
+                    <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+                    <br>
                     <label for="full-name">Full Name</label>
                     <input type="text" name="full_name" id="full-name" required>
                     <br>
@@ -59,5 +60,7 @@
     </main>
 
     <footer>footer</footer>
+
+    <script src="https://kit.fontawesome.com/b80d18dd16.js" crossorigin="anonymous"></script>
 </body>
 </html>
