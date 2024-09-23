@@ -19,6 +19,11 @@ header {
     background-color: #885A5A;
     font-family: "Sansita", system-ui;
     position: relative;
+    display: flex;
+}
+
+h1 {
+    padding: 20px;
 }
 
 #cover-home {
@@ -28,18 +33,21 @@ header {
 }
 
 #navbar {
-    position: relative;
-    vertical-align: bottom;
+    position: absolute;
+    width: 100%;
+    align-self: flex-end;
+    text-align: end;
+    background-color: rgba(18, 16, 14, 0.8);
 }
 
-/* main */
-main {
-    flex: 1 0 auto;
-    background-color: #CCA43B;
-    display: flex;
-    flex-direction: column;
+#navbar a {
+    color: #CCA43B ;
+    text-decoration: none;
+    padding: 0 20px;
+    
 }
 
+/* popup get help window */
 #open-help-window {
     position: fixed;
     z-index: 500;
@@ -65,7 +73,7 @@ main {
 }
 
 #help-window input {
-    width: 250px;
+    width: 100%;
 }
 
 input[type="submit"] {
@@ -119,14 +127,30 @@ input[type="submit"] {
     text-decoration: none;
     float: right;
 }
+/* main */
+main {
+    flex: 1 0 auto;
+    background-color: #CCA43B;
+    display: flex;
+    flex-direction: column;
+}
 
-#about {
-    background-color: rgb(105, 162, 151);
+.main-content {
+    padding: 20px;
+}
+
+h2 {
+    padding: 10px 0;
+}
+
+#about-us {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #about-us img {
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     vertical-align: baseline;
     border-radius: 20px;
 }
