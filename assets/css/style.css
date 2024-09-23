@@ -25,7 +25,6 @@ header {
 
 h1 {
     margin-left: 20px;
-    height: fit-content;
     width: 100%;
     margin-top: 30px;
     
@@ -34,7 +33,6 @@ h1 {
 h1 ~ h2 {
     font-size: medium;
     margin: 0 0 40px 20px;
-    height: fit-content;
     width: 100%;
 }
 
@@ -179,10 +177,9 @@ main h2 {
     text-indent: 15px;
 }
 
-#about-us img {
+#group-pic {
     height: 100%;
     width: 100%;
-    vertical-align: baseline;
     border-radius: 20px;
     margin-bottom: 10px;
 }
@@ -199,4 +196,53 @@ footer {
 
 #footer a{
     color: #EEE5E9;
+}
+
+/* from tablet size up */
+@media screen and (min-width:768px) {
+    
+    /* header */
+    #cover-home {
+        height: 350px;
+    }
+
+    h1 {
+        font-size: 500%;
+        margin-left: 20px;
+        width: 100%;
+        margin-top: 100px;
+
+    }
+
+    h1~h2 {
+        font-size: xx-large;
+        margin: 0 0 100px 20px;
+        width: 100%;
+    }
+
+    #navbar {
+        height: 40px;
+    }
+
+    #navbar a {
+        font-size: 200%;
+    }
+
+    /* about us content */
+    #about-us {
+        display: block;
+    }
+
+    #first-paragraph {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #group-pic { 
+        float: left;
+        height: 50%;
+        width: 50%;
+        padding: 20px;
+        margin: 0;
+    }
 }
