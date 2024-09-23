@@ -164,7 +164,7 @@ main h2 {
     right: 5px;
     position: fixed;
     text-align: center;
-    bottom: 20px;
+    bottom: 46px;
 }
 
 #about-us {
@@ -183,5 +183,12 @@ main h2 {
 /* footer */
 footer {
     background-color: #12100E;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    padding: 5px 0;
+}
+
+#footer a{
     color: #EEE5E9;
 }
