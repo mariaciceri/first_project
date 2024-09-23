@@ -20,6 +20,12 @@ header {
     font-family: "Sansita", system-ui;
 }
 
+#cover-home {
+    background: url("../images/climbing-cover-cropped.webp") center center/cover;
+    width: 100%;
+    height: 130px;
+}
+
 /* main */
 main {
     flex: 1 0 auto;
@@ -60,6 +66,17 @@ main {
 
 #got-message {
 
+}
+
+#about {
+    
+}
+
+#about-us img {
+    height: 50%;
+    width: 50%;
+    vertical-align: baseline;
+    border-radius: 20px;
 }
 
 
