@@ -48,22 +48,37 @@ main {
     width: 100%;
     visibility: hidden;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 
 #help-window {
     background-color: rgba(18, 16, 14, 0.8);
-    padding: 20px;
+    padding: 10px 30px;
     width: min-content;
     height: fit-content;
     color: #EEE5E9;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+}
+
+#help-window input {
+    width: 250px;
+}
+
+input[type="submit"] {
+    background-color: #CCA43B;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 /* closing "button" */
 #help-window a {
     text-decoration: none;
     color: #CCA43B;
-    float: right;
+    float: right; 
 }
 
 #open-help-window:target {

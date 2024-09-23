@@ -14,35 +14,37 @@
             <a href="#open-help-window">Get Help</a>
         </nav>
     </header>
-    
-    <main>
-        <!-- get help pop up window -->
-        <section id="open-help-window">
-            <div id="help-window">
-                <form action="#success-message" method="GET">
-                    <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
-                    <br>
-                    <label for="full-name">Full Name</label>
-                    <input type="text" name="full_name" id="full-name" required>
-                    <br>
-                    <label for="email">Email</label>
-                    <input type="email" name="email_address" id="email" required>
-                    <br>
-                    <label for="question">Write your question here</label>
-                    <textarea name="question" id="question" cols="30" rows="10"></textarea>
-                    <br>
-                    <input type="submit" value="Send">
-                </form>
-            </div>
-        </section>
-        <!-- success message -->
-        <div id="success-message">
-            <div id="got-message">
-                <a href="#">X</a>
-                <p>We got your question!</p>
-                <a href="#open-help-window"></a>
-            </div>
+    <!-- get help pop up window -->
+    <section id="open-help-window">
+        <div id="help-window">
+            <form action="#success-message" method="GET">
+                <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+                <br>
+                <label for="full-name">Full Name</label>
+                <br>
+                <input type="text" name="full_name" id="full-name" required>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email_address" id="email" required>
+                <br>
+                <label for="question">Write your question here</label>
+                <br>
+                <textarea name="question" id="question" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Send">
+            </form>
         </div>
+    </section>
+    <!-- success message -->
+    <div id="success-message">
+        <div id="got-message">
+            <a href="#">X</a>
+            <p>We got your question!</p>
+            <a href="#open-help-window"></a>
+        </div>
+    </div>
+    <main>
         <!-- presentation section -->
         <section>
             <h2>Climbing History</h2>
