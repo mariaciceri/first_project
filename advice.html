@@ -5,20 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Advice</title>
+    <meta name="description" content="Climbing Rox. Climbing content for all kinds of climbers">
+    <meta name="keywords" content="climbing, boulder, toprope, lead climbing, sports, exercise">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons8-mountain-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons8-mountain-32.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/icons8-mountain-16.ico">
+    <title>Climb Rox</title>
 </head>
 
 <body>
-    <header>
-        <h1>Header</h1>
-        <nav><a href="index.html"> Home</a></nav>
+    <header id="cover-advice">
+        <h1>Guidance</h1>
+        <h2>Hang in there, <br> we got you!</h2>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="#open-help-window">Get Help</a>
+            <a href="#footer">Follow Us</a>
+        </nav>
     </header>
+    
+    <!-- popup get help window -->
+    <section id="open-help-window">
+        <div id="help-window">
+            <form action="#success-message" method="GET">
+                <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+                <br>
+                <label for="full-name">Full Name</label>
+                <br>
+                <input type="text" name="full_name" id="full-name" required>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email_address" id="email" required>
+                <br>
+                <label for="question">Write your question here</label>
+                <br>
+                <textarea name="question" id="question" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+    <!-- success message -->
+    <div id="success-message">
+        <div id="got-message">
+            <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            <br>
+            <p>We got your question!</p>
+            <a href="#open-help-window"><i class="fa-solid fa-circle-arrow-left"></i> Back</a>
+        </div>
+    </div>
     <main>
-        Main Content for advice
-
+        <a href="#" id="back-to-top"><i class="fa-solid fa-arrow-up"></i><br>Top</a>
+        <!-- advice section -->
+        
     </main>
-    <footer>footer</footer>
+    <footer id="footer">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://open.spotify.com/" target="_blank" rel="noopener"><i class="fa-brands fa-spotify"></i></a>
+    </footer>
 
+    <script src="https://kit.fontawesome.com/b80d18dd16.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
