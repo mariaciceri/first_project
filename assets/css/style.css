@@ -51,6 +51,7 @@ p a {
     color: #12100E;
 }
 
+
 #cover-home {
     background: url("../images/climbing-cover-cropped.webp") center center/cover;
     width: 100%;
@@ -227,8 +228,11 @@ main h2 {
 
 #questions {
     list-style-type: none;
-    padding: 10px;
-    
+    padding: 10px; 
+}
+
+#conclusion {
+    margin-bottom: 20px;
 }
 
 /* footer */
@@ -291,4 +295,7 @@ footer {
         margin: 0;
         border-radius: 50px;
     }
+
+    /* advice section */
+   
 }
