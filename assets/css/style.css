@@ -225,7 +225,11 @@ main h2 {
     padding-bottom: 0;
 }
 
-
+#questions {
+    list-style-type: none;
+    padding: 10px;
+    
+}
 
 /* footer */
 footer {
