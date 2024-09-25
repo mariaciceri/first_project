@@ -218,7 +218,8 @@ main h2 {
     display: block;
     margin: 15px auto;
 }
- /* other images */
+
+/* other images */
 .shoes-image {
     width: 100%;
     height: 100%;
@@ -394,28 +395,26 @@ footer {
         text-shadow: 1px 1px 2px #12100E;
     }
 
-    h4 {
-
-    }
-
     #moderate-heading {
         text-align: start;
     }
 
-    #moderate {
-        float: inline-start;
+    #moderate, #aggressive, #neutral {
+        float: none;
     }
 
-    .img-2 {
-        display: block;
+    .shoes-image {
+        display: inline-block;
+        margin: 0 10%;
     }
 
-    .shapes img {
-        margin: 20px 15%;
+    .shapes {
+        text-align: center;
     }
 
-    .shapes p {
+    .shapes p, .shapes h4 {
         margin: 20px 0;
+        text-align: justify;
     }
 
 }
