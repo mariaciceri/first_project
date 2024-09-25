@@ -218,12 +218,17 @@ main h2 {
     display: block;
     margin: 15px auto;
 }
-
+ /* other images */
 .shoes-image {
     width: 100%;
     height: 100%;
     padding: 10px;
     border-radius: 20px;
+}
+
+/* only desktop images */
+.img-2 {
+    display: none;
 }
 
 #shape {
@@ -283,7 +288,8 @@ footer {
     }
 
     /* get help window */
-    #help-window, #got-message {
+    #help-window,
+    #got-message {
         font-size: 25px;
         padding: 3% 8%;
     }
@@ -293,13 +299,14 @@ footer {
         font-size: 80%;
     }
 
-    input, textarea {
+    input,
+    textarea {
         margin: 10px 0;
     }
 
     textarea {
         width: 350px;
-        font-size: 80%  ;
+        font-size: 80%;
     }
 
     #got-message p {
@@ -371,4 +378,44 @@ footer {
     .features {
         margin: 0 auto;
     }
+}
+
+/* laptop screen size */
+@media screen and (min-width:992px) {
+
+    #navbar {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #navbar a:hover {
+        color: #885A5A;
+        transform: scale(1.1);
+        text-shadow: 1px 1px 2px #12100E;
+    }
+
+    h4 {
+
+    }
+
+    #moderate-heading {
+        text-align: start;
+    }
+
+    #moderate {
+        float: inline-start;
+    }
+
+    .img-2 {
+        display: block;
+    }
+
+    .shapes img {
+        margin: 20px 15%;
+    }
+
+    .shapes p {
+        margin: 20px 0;
+    }
+
 }
