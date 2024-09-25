@@ -55,6 +55,11 @@ Access the webpage <a href="https://mariaciceri.github.io/first_project/" target
     <li>Hero section have a cover background image, a headline, a subtitle and a navbar.</li>
 </ul>
 
+<h3>Footer for Home and Advice pages</h3>
+<ul>
+    <li>The footer contains links to social media pages that will open in a new tab</li>
+</ul>
+
 <h2>Home Page</h2>
 <ul>
     <li>Introduction of the sport (climbing) and about the authors.</li>
@@ -67,7 +72,38 @@ Access the webpage <a href="https://mariaciceri.github.io/first_project/" target
 
 
 <h2>Advice Section</h2>
+<h3>Introduction</h3>
+<ul>
+    <li>A more detailed explanation of the webpage purpose</li>
+</ul>
 
+<h3>How to choose climbing shoes article</h3>
+<ul>
+    <li>Text explaining the purpose of the following content</li>
+    <li>Direct links to parts of the content and to navbar to the Get Help form</li>
+    <li>The informational text is separated in three sub-categories and a conclusion</li>
+    <li>The page is responsive:</li>
+    <ul>
+        <li>Tablet size: in shoe shape section, the text is next to the example image;</li>
+        <li>Desktop/laptop size: in shoe shape section, an extra example picture is available and the content is below the images</li>
+    </ul>
+</ul>
+
+![Introduction and First paragraph of main content](assets/images/advice1.png)
+![Screenshot of one section responsiveness in a mobile device](assets/images/advice2.png)
+![Screenshot of one section responsiveness in a tablet device](assets/images/advice3.png)
+![Screenshot of one section responsiveness in a laptop or desktop](assets/images/advice4.png)
+
+
+<h2>Technologies Used</h2>
+<ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a> is the foundation of the pages;</li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a> adds the style and layout of the pages;</li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank">CSS Flexbox</a> adds responsiveness to the elements on the page;</li>
+    <li><a href="https://gitpod.io/" target="_blank">Gitpod</a> with VScode desktop extension is the IDE for the project;</li>
+    <li><a href="https://git-scm.com/" target="_blank">Git</a> main tool to version control the webpage;</li>
+    <li><a href="https://github.com/" target="_blank">Github</a> is where the page is hosted.</li>
+</ul>
 
 
 
