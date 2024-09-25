@@ -28,10 +28,10 @@ h1 {
     margin-left: 20px;
     width: 100%;
     margin-top: 20px;
-    
+
 }
 
-h1 ~ h2 {
+h1~h2 {
     font-size: medium;
     margin: 0 0 50px 20px;
     width: 100%;
@@ -72,14 +72,14 @@ p a {
     color: #edbd79;
     text-decoration: none;
     padding: 0 20px;
-    
+
 }
 
 /* popup get help window */
 #open-help-window {
     position: fixed;
     z-index: 500;
-    background-color: rgba(18,16,14,0.5);
+    background-color: rgba(18, 16, 14, 0.5);
     height: 100%;
     width: 100%;
     visibility: hidden;
@@ -114,7 +114,7 @@ input[type="submit"] {
 
 /* closing "button" */
 #help-window a {
-    float: right; 
+    float: right;
     color: #edbd79;
 }
 
@@ -156,6 +156,7 @@ input[type="submit"] {
     text-decoration: none;
     float: right;
 }
+
 /* main */
 main {
     flex: 1 0 auto;
@@ -208,7 +209,8 @@ main h2 {
     width: 100%;
     height: 130px;
 }
- /* first picture in advice section */
+
+/* first picture in advice section */
 #shoe-feat {
     width: 100%;
     height: 100%;
@@ -230,7 +232,7 @@ main h2 {
 
 #questions {
     list-style-type: none;
-    padding: 10px; 
+    padding: 10px;
 }
 
 #conclusion {
@@ -246,15 +248,16 @@ footer {
     padding: 5px 0;
 }
 
-#footer a{
+#footer a {
     color: #EEE5E9;
 }
 
 /* from tablet size up */
 @media screen and (min-width:768px) {
-    
+
     /* header */
-    #cover-home, #cover-advice {
+    #cover-home,
+    #cover-advice {
         height: 350px;
     }
 
@@ -279,6 +282,30 @@ footer {
         font-size: 200%;
     }
 
+    /* get help window */
+    #help-window, #got-message {
+        font-size: 25px;
+        padding: 3% 8%;
+    }
+
+    #help-window input {
+        height: 35px;
+        font-size: 80%;
+    }
+
+    input, textarea {
+        margin: 10px 0;
+    }
+
+    textarea {
+        width: 350px;
+        font-size: 80%  ;
+    }
+
+    #got-message p {
+        padding: 10px 0;
+    }
+
     /* about us content */
     #about-us {
         display: block;
@@ -289,7 +316,7 @@ footer {
         margin-top: 20px;
     }
 
-    #group-pic { 
+    #group-pic {
         float: left;
         height: 50%;
         width: 50%;
@@ -299,22 +326,23 @@ footer {
     }
 
     /* advice section */
-    
+
     h4 {
         padding: 10px 12px;
     }
-    
+
     .features {
         display: block;
     }
 
     #shoe-feat {
         height: 70%;
-        width: 80%; 
-        
+        width: 80%;
+
     }
 
-    #neutral, #aggressive {
+    #neutral,
+    #aggressive {
         float: left;
     }
 
