@@ -39,7 +39,7 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 ### Get Help Popup Window
 
-+ Get Help navigation tag is clicked, the content that was hidden shows up, as a popup window, darkening the whole page behind.
++ When _Get Help_ navigation tag is clicked, the content that was hidden shows up, as a popup window, darkening the whole page behind.
 + The user has to provide full name, email and fill up the text area to be able to submit the form.
 + A feedback message then is triggered, letting the user know that the message was received.
 + A closing buttom is placed in the top-right corner of both popups.
@@ -62,7 +62,7 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 + Introduction of the sport (climbing) and the authors.
 + Brief explanation of the purpose of the webpage.
-+ The page is responsive: if screen size bigger than mobile screens, About Us text comes next to the picture.
++ The page is responsive: if screen size is bigger than mobile screens, About Us text comes next to the picture.
 
 
 ![First part of the Home page](assets/images/rox1.png)
@@ -78,7 +78,7 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 ### How to choose climbing shoes article
 
 + Text explaining the purpose of the following content.
-+ Direct links to parts of the content and to navbar to the Get Help form.
++ Direct links to parts of the content and to navbar.
 + The informational text is separated in three sub-categories and a conclusion.
 + The page is responsive. To see and read more, refer to [TESTING.md](TESTING.md)
     
@@ -86,15 +86,16 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 ### Features left to implement
 
-+ Dropdown menu in the Advice Section for when there are more articles available.
++ Dropdown menu or a page mediating the navigation in the Advice Section for when there are more articles available, making it easy for the user to choose what they want to read;
++ Make the popup window open everytime _Get Help_ is mentioned so the user don't need to go up to the navbar.
 
 ## Technologies Used
 
 + [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) is the foundation of the pages;
 + [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) adds the style and layout of the pages;
-+ [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) adds responsiveness to the elements on the page;
-+ [Gitpod](https://gitpod.io/) with VScode desktop extension is the IDE for the project;
-+ [Git](https://git-scm.com/) main tool to version control the webpage;
++ [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) adds responsiveness to the elements on the pages;
++ [Gitpod](https://gitpod.io/) with [VScode](https://code.visualstudio.com/) desktop extension is the IDE for the project;
++ [Git](https://git-scm.com/) is the main tool to version control the webpage;
 + [Github](https://github.com/) is where the page is hosted.
 
 
@@ -103,7 +104,7 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 ### Content
 
 + First boilerplate code was taken from [Love Running](https://github.com/mariaciceri/love-running-practice) project of Code Institute;
-+ Pop up window inspiration and code was taken from [Dev](https://dev.to/pachicodes/creating-a-css-modal-window-pop-up-step-by-step-1f59) and [Beyond the Sketch](https://www.beyondthesketch.com/developer/css-only-modals/);
++ Popup window inspiration and code was taken from [Dev](https://dev.to/pachicodes/creating-a-css-modal-window-pop-up-step-by-step-1f59) and [Beyond the Sketch](https://www.beyondthesketch.com/developer/css-only-modals/);
 + The text were inspired by [Rei coop](https://www.rei.com/learn/expert-advice/rock-shoes.html?srsltid=AfmBOorRz0dMXRcebMmKl2vc8nr7PmiiQbzrWg8WhAQbV86vnILnHNRb);
 + Footer icons were taken from [Font Awesome](https://fontawesome.com/).
 
