@@ -44,7 +44,7 @@ Access the webpage <a href="https://mariaciceri.github.io/first_project/" target
     <li>Get Help navigation tag is clicked, the content that was hidden shows up, as a popup window, darkening the whole page behind.</li>
     <li>The user has to provide full name, email and fill up the text area to be able to submit the form.</li>
     <li>A feedback message then is triggered, letting the user know that the message was received.</li>
-    <li>A closing buttom is placing in the top-right corner of both popups.</li>
+    <li>A closing buttom is placed in the top-right corner of both popups.</li>
 </ul>
 
 ![Get help pop up window with full name, email, and text area boxes](assets/images/popup1.png)
@@ -57,12 +57,12 @@ Access the webpage <a href="https://mariaciceri.github.io/first_project/" target
 
 <h3>Footer for Home and Advice pages</h3>
 <ul>
-    <li>The footer contains links to social media pages that will open in a new tab</li>
+    <li>The footer contains links to social media pages that will open in a new tab.</li>
 </ul>
 
 <h2>Home Page</h2>
 <ul>
-    <li>Introduction of the sport (climbing) and about the authors.</li>
+    <li>Introduction of the sport (climbing) and the authors.</li>
     <li>Brief explanation of the purpose of the webpage.</li>
     <li>The page is responsive: if screen size bigger than mobile screens, About Us text comes next to the picture.</li>
 </ul>
@@ -79,15 +79,22 @@ Access the webpage <a href="https://mariaciceri.github.io/first_project/" target
 
 <h3>How to choose climbing shoes article</h3>
 <ul>
-    <li>Text explaining the purpose of the following content</li>
-    <li>Direct links to parts of the content and to navbar to the Get Help form</li>
-    <li>The informational text is separated in three sub-categories and a conclusion</li>
+    <li>Text explaining the purpose of the following content.</li>
+    <li>Direct links to parts of the content and to navbar to the Get Help form.</li>
+    <li>The informational text is separated in three sub-categories and a conclusion.</li>
     <li>The page is responsive:</li>
     <ul>
         <li>Tablet size: in shoe shape section, the text is next to the example image;</li>
-        <li>Desktop/laptop size: in shoe shape section, an extra example picture is available and the content is below the images</li>
+        <li>Desktop/laptop size: in shoe shape section, an extra example picture is available and the content is below the images.</li>
     </ul>
 </ul>
+
+<h3>Features left to implement</h3>
+<ul>
+    <li>Dropdown menu in the Advice Section for when there are more articles available.</li>
+</ul>
+
+<h2>Testing</h2>
 
 ![Introduction and First paragraph of main content](assets/images/advice1.png)
 ![Screenshot of one section responsiveness in a mobile device](assets/images/advice2.png)
