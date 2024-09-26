@@ -1,6 +1,6 @@
 # Climbing Rox
 
-The Climbing Rox is a webpge for climbers of any level to ready more about the sport, help with equipment they will buy and/or routes they are going to visit.
+The Climbing Rox is a webpge for climbers of any level to ready more about the sport, help with equipment they will buy and/or routes they are going to visit. 
 Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 ![Am I responsive display of the project page](assets/images/responsive.png)
@@ -112,7 +112,9 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 + Images were taken from [Unsplash](https://unsplash.com/), [Pexels](https://unsplash.com/) and free trial of [Adobe Stock](https://stock.adobe.com/se/search?k=%22climbing+shoes%22&search_type=recentsearch).
 
+## Deployment
 
+The page was deployed at early stages to GitHub pages. 
 
 
 
