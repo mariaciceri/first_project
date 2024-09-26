@@ -80,14 +80,9 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + Text explaining the purpose of the following content.
 + Direct links to parts of the content and to navbar to the Get Help form.
 + The informational text is separated in three sub-categories and a conclusion.
-+ The page is responsive:
-    * Tablet size: in shoe shape section, the text is next to the example image;
-    * Desktop/laptop size: in shoe shape section, an extra example picture is available and the content is below the images.
++ The page is responsive. To see and read more, refer to [TESTING.md](TESTING.md)
     
 ![Introduction and First paragraph of main content](assets/images/advice1.png)
-![Screenshot of one section responsiveness in a mobile device](assets/images/advice2.png)
-![Screenshot of one section responsiveness in a tablet device](assets/images/advice3.png)
-![Screenshot of one section responsiveness in a laptop or desktop](assets/images/advice4.png)
 
 ### Features left to implement
 
@@ -103,6 +98,19 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + [Github](https://github.com/) is where the page is hosted.
 
 
+## Credits
+
+### Content
+
++ First boilerplate code was taken from [Love Running](https://github.com/mariaciceri/love-running-practice) project of Code Institute;
++ Pop up window inspiration and code was taken from [Dev](https://dev.to/pachicodes/creating-a-css-modal-window-pop-up-step-by-step-1f59) and [Beyond the Sketch](https://www.beyondthesketch.com/developer/css-only-modals/);
++ The text were inspired by [Rei coop](https://www.rei.com/learn/expert-advice/rock-shoes.html?srsltid=AfmBOorRz0dMXRcebMmKl2vc8nr7PmiiQbzrWg8WhAQbV86vnILnHNRb);
++ Footer icons were taken from [Font Awesome](https://fontawesome.com/).
+
+
+### Media
+
++ Images were taken from [Unsplash](https://unsplash.com/), [Pexels](https://unsplash.com/) and free trial of [Adobe Stock](https://stock.adobe.com/se/search?k=%22climbing+shoes%22&search_type=recentsearch).
 
 
 
@@ -110,10 +118,3 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 
 
-# first_project
-HTML/CSS static webpage. First project for Code Institute.
-
-
-sites that I used for help: <https://dev.to/pachicodes/creating-a-css-modal-window-pop-up-step-by-step-1f59>
-
-<https://www.beyondthesketch.com/developer/css-only-modals/>
