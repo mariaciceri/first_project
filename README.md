@@ -8,15 +8,16 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 ## User Story
 ### First Timers
 
-+ When visiting the page for the first time, the user can read about the authors in _Home_. 
-+ The user can easily access the content of the page and navigate through the different sections. 
++ When visiting the page for the first time, the user can read about the authors in _Home_;
++ The user can easily access the content of the page and navigate through the different sections; 
++ The user can find easily the section containing the articles and choose the one they are interested in;
++ The user can subscribe and follow the authors to be up-to-date with new content being released.
 
 
 ### Returning and Frequent Visitors
 
-+ The user can easily send a question to the authors and contact them. 
-+ The user can check if there are any new articles. 
- 
++ The user can easily send a question to the authors and contact them; 
++ The user can check if there are any new articles; 
 
 
 ## Features
@@ -105,6 +106,7 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
     * In the GitHub [repository](https://github.com/mariaciceri/first_project), navigate to the Settings tab;
     * On the right-hand side in the menu, click on pages;
     * In Source check if "deploy from branch" is selected, then below it, in Branch, select "main" and save it;
+    * To access it for the first time, go back to Code in the main navbar and on the left-hand side scroll down to deployments, click there and open the page;
 
 
 ## Credits
