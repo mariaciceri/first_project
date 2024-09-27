@@ -52,14 +52,14 @@ p a {
 }
 
 
-#cover-home {
+.cover-home {
     background: url("../images/climbing-cover-cropped.webp") center center/cover;
     width: 100%;
     height: 130px;
     background-position: 0 20%;
 }
 
-#navbar {
+.navbar {
     position: absolute;
     width: 100%;
     height: 25px;
@@ -68,7 +68,7 @@ p a {
     background-color: rgba(18, 16, 14, 0.8);
 }
 
-#navbar a {
+.navbar a {
     color: #edbd79;
     text-decoration: none;
     padding: 0 20px;
@@ -202,15 +202,42 @@ main h2 {
     margin-bottom: 10px;
 }
 
-/* advice section */
+/* advice and article cover */
 
-#cover-advice {
+.cover-advice {
     background: url("../images/hanging.webp") center center/cover;
     width: 100%;
     height: 130px;
 }
 
-/* first picture in advice section */
+/* advice page */
+
+.article-selection {
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.clickable-img {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    border-color: #12100E;
+    display: inline;
+}
+
+.article-selection a {
+    text-decoration: none;
+}
+
+.text-aligned {
+    position: absolute;
+    left: 11%;
+    
+}
+
+/* first picture in in how to choose climbing shoe article */
 #shoe-feat {
     width: 100%;
     height: 100%;
@@ -219,7 +246,7 @@ main h2 {
     margin: 15px auto;
 }
 
-/* other images */
+/* other images in how to choose climbing shoe article*/
 .shoes-image {
     width: 100%;
     height: 100%;
@@ -227,7 +254,7 @@ main h2 {
     border-radius: 20px;
 }
 
-/* only desktop images */
+/* only desktop images in how to choose climbing shoe article */
 .img-2 {
     display: none;
 }
@@ -262,8 +289,8 @@ footer {
 @media screen and (min-width:768px) {
 
     /* header */
-    #cover-home,
-    #cover-advice {
+    .cover-home,
+    .cover-advice {
         height: 350px;
     }
 
@@ -280,11 +307,11 @@ footer {
         width: 100%;
     }
 
-    #navbar {
+    .img-2 {
         height: 40px;
     }
 
-    #navbar a {
+    .navbar a {
         font-size: 200%;
     }
 
@@ -333,7 +360,7 @@ footer {
         border-radius: 50px;
     }
 
-    /* advice section */
+    /* shoe article section */
 
     h4 {
         padding: 10px 12px;
@@ -384,12 +411,12 @@ footer {
 /* laptop screen size */
 @media screen and (min-width:992px) {
 
-    #navbar {
+    .navbar {
         display: flex;
         justify-content: flex-end;
     }
 
-    #navbar a:hover {
+    .navbar a:hover {
         color: #885A5A;
         transform: scale(1.1);
         text-shadow: 1px 1px 2px #12100E;

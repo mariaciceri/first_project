@@ -87,8 +87,8 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 ### Features left to implement
 
-+ Dropdown menu or a page mediating the navigation in the Advice Section for when there are more articles available, making it easy for the user to choose what they want to read;
 + Make the popup window open everytime _Get Help_ is mentioned so the user don't need to go up to the navbar.
+
 
 ## Technologies Used
 
