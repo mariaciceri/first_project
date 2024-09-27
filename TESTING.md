@@ -16,14 +16,14 @@ The pages are responsive to fit better different screen sizes: pictures are rear
 * Desktop/laptop size: in shoe shape section, an extra example picture is available and the content is below the images;
 * In about us, the text collapses to the side of the picture in larger screens (tablet and laptop).
 
-![Screenshot of one section responsiveness in a mobile device](assets/images/advice2.png)
+![Screenshot of one section responsiveness in a mobile device](assets/images-doc/advice2.png)
 
-![Screenshot of one section responsiveness in a tablet device](assets/images/advice3.png)
+![Screenshot of one section responsiveness in a tablet device](assets/images-doc/advice3.png)
 
-![Screenshot of one section responsiveness in a laptop or desktop](assets/images/advice4.png)
+![Screenshot of one section responsiveness in a laptop or desktop](assets/images-doc/advice4.png)
 
-![Screenshot of about us section responsiveness in a mobile device](assets/images/about-us-mobile.png) 
-![Screenshot of about us section responsiveness in a tablet device](assets/images/about-us-tablet.png)
+![Screenshot of about us section responsiveness in a mobile device](assets/images-doc/about-us-mobile.png) 
+![Screenshot of about us section responsiveness in a tablet device](assets/images-doc/about-us-tablet.png)
 
 
 ## Validation
@@ -31,15 +31,15 @@ The pages are responsive to fit better different screen sizes: pictures are rear
 * HTML
     - No errors or warnings were found when running the code on the official W3C validator.
 
-![Screenshot of the W3C webpage with no errors or warnings for the home page](assets/images/validation-HTML-index.png)
-![Screenshot of the W3C webpage with no errors or warnings for the advice](assets/images/validation-HTML-advice.png)
+![Screenshot of the W3C webpage with no errors or warnings for the home page](assets/images-doc/validation-html-index.png)
+![Screenshot of the W3C webpage with no errors or warnings for the advice](assets/images-doc/validation-html-advice.png)
 
 * CSS
     - One warning was found in the CSS style sheet when running on the official W3C validator:
         + the background color for the button is the same as the border color. This is intentional. 
 
-![Screenshot of the CSS W3C validation webpage with no errors and one warning](assets/images/validation-css.png)
-![Screenshot of the warning in the CSS validator site](assets/images/warning.png)
+![Screenshot of the CSS W3C validation webpage with no errors and one warning](assets/images-doc/validation-css.png)
+![Screenshot of the warning in the CSS validator site](assets/images-doc/warning.png)
 
 ## Lighthouse
 
@@ -47,11 +47,11 @@ The pages are responsive to fit better different screen sizes: pictures are rear
 
     - Home page
 
-    ![Screenshot of the perfomance ran on lighthouse for the home page](assets/images/performance-index.png)
+    ![Screenshot of the perfomance ran on lighthouse for the home page](assets/images-doc/performance-index.png)
 
     - Advice page
 
-    ![Screenshot of the perfomance ran on lighthouse for the advice page](assets/images/performance-advice.png)
+    ![Screenshot of the perfomance ran on lighthouse for the advice page](assets/images-doc/performance-advice.png)
 
 ## Bugs
 

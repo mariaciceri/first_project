@@ -3,12 +3,12 @@
 The Climbing Rox is a webpge for climbers of any level to ready more about the sport, help with equipment they will buy and/or routes they are going to visit. 
 Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
-![Am I responsive display of the project page](assets/images/responsive.png)
+![Am I responsive display of the project page](assets/images-doc/responsive.png)
 
 ## User Story
 ### First Timers
 
-+ When visiting the page for the first time, the user can ready about the authors in _Home_. 
++ When visiting the page for the first time, the user can read about the authors in _Home_. 
 + The user can easily access the content of the page and navigate through the different sections. 
 
 
@@ -45,8 +45,8 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + A closing buttom is placed in the top-right corner of both popups.
 
 
-![Get help pop up window with full name, email, and text area boxes](assets/images/popup1.png)
-![Feedback message after submitting a question](assets/images/popup2.png)
+![Get help pop up window with full name, email, and text area boxes](assets/images-doc/popup1.png)
+![Feedback message after submitting a question](assets/images-doc/popup2.png)
 
 ### Hero Section for Home and Advice pages.
 
@@ -65,8 +65,8 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + The page is responsive: if screen size is bigger than mobile screens, About Us text comes next to the picture.
 
 
-![First part of the Home page](assets/images/rox1.png)
-![About us and footer of Home page](assets/images/rox2.png)
+![First part of the Home page](assets/images-doc/rox1.png)
+![About us and footer of Home page](assets/images-doc/rox2.png)
 
 
 ## Advice Section
@@ -82,7 +82,7 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + The informational text is separated in three sub-categories and a conclusion.
 + The page is responsive. To see and read more, refer to [TESTING.md](TESTING.md)
     
-![Introduction and First paragraph of main content](assets/images/advice1.png)
+![Introduction and First paragraph of main content](assets/images-doc/advice1.png)
 
 ### Features left to implement
 
@@ -96,7 +96,15 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) adds responsiveness to the elements on the pages;
 + [Gitpod](https://gitpod.io/) with [VScode](https://code.visualstudio.com/) desktop extension is the IDE for the project;
 + [Git](https://git-scm.com/) is the main tool to version control the webpage;
-+ [Github](https://github.com/) is where the page is hosted.
++ [Github](https://github.com/) is where the pages are hosted.
++ [Font Awesome](https://fontawesome.com/) is used for icon throughout the whole project.
+
+## Deployment
+
++ The page was deployed at early stages to GitHub pages. The steps to deploy are as follows:
+    * In the GitHub [repository](https://github.com/mariaciceri/first_project), navigate to the Settings tab;
+    * On the right-hand side in the menu, click on pages;
+    * In Source check if "deploy from branch" is selected, then below it, in Branch, select "main" and save it;
 
 
 ## Credits
@@ -113,9 +121,6 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 + Images were taken from [Unsplash](https://unsplash.com/), [Pexels](https://unsplash.com/) and free trial of [Adobe Stock](https://stock.adobe.com/se/search?k=%22climbing+shoes%22&search_type=recentsearch).
 
-## Deployment
-
-The page was deployed at early stages to GitHub pages. 
 
 
 
