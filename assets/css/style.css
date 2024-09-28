@@ -143,7 +143,7 @@ input[type="submit"] {
 #got-message {
     background-color: rgba(18, 16, 14, 0.8);
     padding: 10px 25px;
-    width: max-content;
+    width: 75%;
     height: fit-content;
     color: #EEE5E9;
     text-align: center;
