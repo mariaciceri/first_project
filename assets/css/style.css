@@ -168,6 +168,11 @@ main {
     position: relative;
 }
 
+main h2 {
+    padding: 10px 0;
+    line-height: 25px;
+}
+
 .main-content {
     margin-right: 20px;
     padding: 15px;
@@ -175,9 +180,8 @@ main {
     line-height: 20px;
 }
 
-main h2 {
-    padding: 10px 0;
-    line-height: 25px;
+.main-content p {
+    text-indent: 15px;
 }
 
 #back-to-top {
@@ -189,13 +193,10 @@ main h2 {
     bottom: 46px;
 }
 
+/* home page */
 #about-us {
     display: flex;
     flex-wrap: wrap;
-}
-
-.main-content p {
-    text-indent: 15px;
 }
 
 #group-pic {
@@ -213,7 +214,7 @@ main h2 {
     height: 130px;
 }
 
-/* general article rules */
+/* general article rules for images */
 
 .article-img {
     width: 100%;
@@ -271,7 +272,7 @@ main h2 {
     display: none;
 }
 
-
+/* list on how to decide in choosing shoe article */
 #questions {
     list-style-type: none;
     padding: 10px;

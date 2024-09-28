@@ -1,16 +1,20 @@
 @media screen and (min-width:992px) {
 
-    .navbar {
-        display: flex;
-        justify-content: flex-end;
+    html {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #fbf6ee;
     }
 
+    /* hover effects */
     .navbar a:hover {
         color: #885A5A;
         transform: scale(1.1);
         text-shadow: 1px 1px 2px #12100E;
     }
 
+
+    /* style for images on choosing shoe article */
     #moderate-heading {
         text-align: start;
     }
@@ -21,9 +25,13 @@
         float: none;
     }
 
-    .shoes-image {
+    #shoe-feat {
+        max-width: 750px;
+    }
+
+    .shoe-shape, .img-2 {
         display: inline-block;
-        margin: 0 10%;
+        margin: 0 30px;
     }
 
     .shapes {
@@ -35,5 +43,7 @@
         margin: 20px 0;
         text-align: justify;
     }
+
+    
 
 }
