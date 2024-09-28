@@ -76,7 +76,7 @@
 
     /* advice section */
 
-    .article-selection{
+    .article-selection {
         display: flex;
         flex-direction: column;
     }
@@ -93,7 +93,7 @@
         color: #12100E;
         display: flex;
         align-items: center;
-        
+
     }
 
     .text-aligned {
@@ -110,24 +110,44 @@
         display: block;
     }
 
-    /* general style for articles */
+    /* general style for article images */
     .content-image {
         height: 350px;
         width: 350px;
     }
 
-    .article-style {
-        display: block;
-        margin: 0 auto;
-    }
-
     /* climbing types article */
-    /* choosing shoe article */
 
-    h4 {
-        padding: 10px 12px;
+    #single-pitch,
+    #boulder {
+        float: left;
     }
 
+    #multi-pitch {
+        float: right;
+        text-align: end;
+    }
+
+    h3#single-pitch {
+        padding-top: 20px;
+    }
+
+    .styles {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .styles h3 {
+        padding: 0 12px;
+        width: 100%;
+    }
+
+    .styles p {
+        padding: 15px;
+        margin: 10% 0;
+    }
+
+    /* choosing shoe article */
 
     #shoe-feat {
         height: auto;
@@ -147,10 +167,6 @@
         text-align: end;
     }
 
-    .img-2 {
-        height: 40px;
-    }
-
     .shapes p {
         padding: 15px;
         margin: 12% 0;
@@ -159,6 +175,4 @@
     .shapes h4 {
         padding: 0 12px;
     }
-
-
 }
