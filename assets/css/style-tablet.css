@@ -112,7 +112,7 @@
 
     /* general style for article images */
     .content-image {
-        height: 350px;
+        height: auto;
         width: 350px;
     }
 
@@ -144,7 +144,7 @@
 
     .styles p {
         padding: 15px;
-        margin: 10% 0;
+        margin: 5% 0;
     }
 
     /* choosing shoe article */
@@ -169,7 +169,7 @@
 
     .shapes p {
         padding: 15px;
-        margin: 12% 0;
+        margin: 8% 0;
     }
 
     .shapes h4 {

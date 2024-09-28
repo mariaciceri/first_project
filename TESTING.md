@@ -63,7 +63,8 @@ There weren't many bugs along the way for mobile and tablet screen sizes. For de
 * Bug: In advice section, in the anchor element, the text was collapsing on top of each other while the picture was not.
     - Fix: Remove position: relative in parent element and position: absolute in the text class.
 
-* Bug:
+* Bug: Style not applying on my h3 with id=single-pitch because of wrong syntax;
+    - Fix: Use proper syntax.
 
 
 
