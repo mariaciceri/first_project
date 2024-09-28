@@ -238,6 +238,15 @@ main h2 {
     width: 100px;
 }
 
+.text-aligned h3 {
+    padding: 0;
+    font-size: 16px;
+}
+
+.text-aligned p {
+    display: none;
+}
+
 /* first picture in in how to choose climbing shoe article */
 #shoe-feat {
     width: 100%;

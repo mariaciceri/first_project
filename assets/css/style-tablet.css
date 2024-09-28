@@ -99,6 +99,11 @@
     .text-aligned {
         width: fit-content;
         padding-left: 20px;
+        font-size: medium;
+    }
+
+    .text-aligned p {
+        display: block;
     }
 
     /* shoe article section */
