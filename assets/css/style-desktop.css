@@ -25,6 +25,12 @@
         text-shadow: 1px 1px 2px #12100E;
     }
 
+    a:hover#back-to-top {
+        color: #885A5A;
+        transform: scale(1.1);
+        text-shadow: 1px 1px 2px #12100E;
+    }
+
     
 
     /* advice page */
