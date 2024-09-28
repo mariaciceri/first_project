@@ -76,9 +76,13 @@
 
     /* advice section */
 
-    
+    .article-selection{
+        display: flex;
+        flex-direction: column;
+    }
+
     .clickable-img {
-        width: 50%;
+        width: 30%;
         height: auto;
         border-radius: 50%;
         border-color: #12100E;
@@ -89,14 +93,12 @@
         color: #12100E;
         display: flex;
         align-items: center;
-        flex-direction: column;
-        justify-content: space-evenly;
+        
     }
 
     .text-aligned {
         width: fit-content;
-        padding-top: 10px;
-        font-weight: bold;
+        padding-left: 20px;
     }
 
     /* shoe article section */
@@ -150,5 +152,5 @@
     }
 
     /* climbing types article */
-    
+
 }
