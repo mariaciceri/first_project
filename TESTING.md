@@ -36,7 +36,7 @@ The pages are responsive to fit better different screen sizes: pictures are rear
 
 * CSS
     - One warning was found in the CSS style sheet when running on the official W3C validator:
-        + the background color for the button is the same as the border color. This is intentional. 
+        + the background color for the button is the same as the border color. This is intentional and it is working as intended. 
 
 ![Screenshot of the CSS W3C validation webpage with no errors and one warning](assets/images-doc/validation-css.png)
 ![Screenshot of the warning in the CSS validator site](assets/images-doc/warning.png)
@@ -57,7 +57,13 @@ The pages are responsive to fit better different screen sizes: pictures are rear
 
 There weren't many bugs along the way for mobile and tablet screen sizes. For desktop the following bug was spotted and fixed:
 
-* When the two images were seen in larger screens than 13", they were not centralized. To fix it was necessary to set the imagine class to inline block and the div class to align the text centered. With this it was necessary to realine the text and title to the left.
+* Bug: When the two images were seen in larger screens than 13", they were not centralized. 
+    - Fix: set the imagine class to inline block and the div class to align the text centered. Realign the text and title to the left.
+
+* Bug: In advice section, in the anchor element, the text was collapsing on top of each other while the picture was not.
+    - Fix: Remove position: relative in parent element and position: absolute in the text class.
+
+* Bug:
 
 
 
