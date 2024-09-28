@@ -110,18 +110,27 @@
         display: block;
     }
 
-    /* shoe article section */
+    /* general style for articles */
+    .content-image {
+        height: 350px;
+        width: 350px;
+    }
+
+    .article-style {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* climbing types article */
+    /* choosing shoe article */
 
     h4 {
         padding: 10px 12px;
     }
 
-    .features {
-        display: block;
-    }
 
     #shoe-feat {
-        height: 70%;
+        height: auto;
         width: 80%;
     }
 
@@ -138,11 +147,6 @@
         text-align: end;
     }
 
-    .shoes-image {
-        height: 350px;
-        width: 350px;
-    }
-
     .img-2 {
         height: 40px;
     }
@@ -156,10 +160,5 @@
         padding: 0 12px;
     }
 
-    .features {
-        margin: 0 auto;
-    }
-
-    /* climbing types article */
 
 }

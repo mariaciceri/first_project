@@ -213,6 +213,15 @@ main h2 {
     height: 130px;
 }
 
+/* general article rules */
+
+.article-img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 /* advice page */
 
 .article-selection {
@@ -256,26 +265,12 @@ main h2 {
     margin: 15px auto;
 }
 
-/* other images in how to choose climbing shoe article*/
-.shoes-image {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    border-radius: 20px;
-}
 
 /* only desktop images in how to choose climbing shoe article */
 .img-2 {
     display: none;
 }
 
-/* images for climbing types article */
-.climb-img {
-        width: 100%;
-        height: 100%;
-        padding: 10px;
-        border-radius: 20px;
-    }
 
 #questions {
     list-style-type: none;
