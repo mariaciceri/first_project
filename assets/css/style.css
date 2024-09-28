@@ -23,7 +23,8 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
- /* general rules */
+
+/* general rules */
 h1 {
     margin-left: 20px;
     width: 100%;
@@ -259,9 +260,13 @@ main h2 {
     display: none;
 }
 
-#shape {
-    padding-bottom: 0;
-}
+/* images for climbing types article */
+.climb-img {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        border-radius: 20px;
+    }
 
 #questions {
     list-style-type: none;
@@ -423,7 +428,9 @@ footer {
         text-align: start;
     }
 
-    #moderate, #aggressive, #neutral {
+    #moderate,
+    #aggressive,
+    #neutral {
         float: none;
     }
 
@@ -436,7 +443,8 @@ footer {
         text-align: center;
     }
 
-    .shapes p, .shapes h4 {
+    .shapes p,
+    .shapes h4 {
         margin: 20px 0;
         text-align: justify;
     }
