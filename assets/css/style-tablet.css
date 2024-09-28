@@ -102,6 +102,10 @@
         font-size: medium;
     }
 
+    .text-aligned h3 {
+        font-size: large;
+    }
+
     .text-aligned p {
         display: block;
     }
