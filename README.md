@@ -111,6 +111,7 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 + Make the popup window open everytime _Get Help_ is mentioned so the user don't need to go up to the navbar.
 + When the user can see the whole page and click on follow us, the footer blinks or gives a feedback showing that the links are there.
++ Add source of images to the browser to choose which is adequate to the screen size of the user, this way the performance can be enhanced for the articles;
 
 
 ## Technologies Used

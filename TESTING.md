@@ -4,9 +4,13 @@ To ensure that the webpage works in all platforms and is responsive in different
 
 ## Compatibility
 
-* The page was tested on Chrome and Safari and it showed the same results. For content disposition and responsive aspects.
+* The page was tested on Chrome, Firefox and Safari and it showed the same results. For content disposition and responsive aspects.
 * The page was also opened and all buttons were clicked in a real tablet, a phone and two different computers with different operational systems. The form was submitted in all these devices also.
 
+## Manual Testing
+
+* A friend tested on her mobile and could not understand the follow up button.
+    - To remedy that, it was added a sentence to the footer to indicate to the user that the links are there.
 
 ## Responsiveness
 
@@ -14,8 +18,8 @@ The pages are responsive to fit better different screen sizes: pictures are rear
 
 * Tablet size: in shoe shape section, the text is next to the example image;
 * Desktop/laptop size: in shoe shape section, an extra example picture is available and the content is below the images;
-* In about us, the text collapses to the side of the picture in larger screens (tablet and laptop).
-
+* In about us, the text collapses to the side of the picture in larger screens (tablet and laptop);
+* Refer to [RESPONSIVE-IMG.md](RESPONSIVE-IMG.md) for screen shoots of the whole pages in different screen sizes.
 
 ## Validation
 
@@ -24,10 +28,12 @@ The pages are responsive to fit better different screen sizes: pictures are rear
 
 ![Screenshot of the W3C webpage with no errors or warnings for the home page](assets/images-doc/validation-html-index.png)
 ![Screenshot of the W3C webpage with no errors or warnings for the advice](assets/images-doc/validation-html-advice.png)
+![Screenshot of the W3C webpage with no errors or warnings for the climbing styles article](assets/images-doc/validation-html-article-styles.png)
+![Screenshot of the W3C webpage with no errors or warnings for the climbing shoes article](assets/images-doc/validation-html-article-shoes.png)
 
 * CSS
-    - One warning was found in the CSS style sheet when running on the official W3C validator:
-        + the background color for the button is the same as the border color. This is intentional and it is working as intended. 
+    - Two warnings were found in the CSS style sheets when running on the official W3C validator:
+        + The background color for the button is the same as the border color. This is intentional and it is working as intended. 
 
 ![Screenshot of the CSS W3C validation webpage with no errors and one warning](assets/images-doc/validation-css.png)
 ![Screenshot of the warning in the CSS validator site](assets/images-doc/warning.png)
@@ -43,6 +49,14 @@ The pages are responsive to fit better different screen sizes: pictures are rear
     - Advice page
 
     ![Screenshot of the perfomance ran on lighthouse for the advice page](assets/images-doc/performance-advice.png)
+
+    - Sport Climbing Styles article
+
+    ![Screenshot of the perfomance ran on lighthouse for the climbing styles page](assets/images-doc/performance-style-article.png)
+
+    - Choosing Shoe article
+
+    ![Screenshot of the perfomance ran on lighthouse for the advice page](assets/images-doc/performance-shoes-article.png)
 
 ## Bugs
 
