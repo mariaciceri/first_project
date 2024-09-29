@@ -1,7 +1,8 @@
 @media screen and (min-width:992px) {
 
+    /* max width so the content dont get to spread out */
     html {
-        max-width: 1200px;
+        max-width: 1300px;
         margin: 0 auto;
         background-color: #fbf6ee;
     }
@@ -15,8 +16,8 @@
 
     .article-selection a:hover {
         color: #885A5A;
-        transform: scale(1.05);
-        text-shadow: 1px 1px 2px #12100E;
+        transform: scale(1.02);
+        text-shadow: 1px 1px 2px #12100E; 
     }
 
     .footer a:hover {
@@ -46,7 +47,6 @@
     }
 
     /* advice page */
-
     .clickable-img {
         width: 20%;
     }
@@ -59,6 +59,19 @@
     .text-aligned p {
         font-size: 20px;
     }
+
+    /* style for images on climbing styles */
+    #single-pitch, #multi-pitch, #boulder {
+        float: none;
+        text-align: justify;
+    }
+
+    .styles p,
+    .styles h3 {
+        margin: 20px 0;
+    }
+
+    
 
     /* style for images on choosing shoe article */
     #moderate-heading {
@@ -75,7 +88,6 @@
         max-width: 750px;
     }
 
-    .shoe-shape,
     .img-2 {
         display: inline-block;
         margin: 0 30px;
@@ -90,6 +102,4 @@
         margin: 20px 0;
         text-align: justify;
     }
-
-
 }

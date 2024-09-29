@@ -20,9 +20,9 @@
         <h1>Guide</h1>
         <h2>Hang in there, <br> we got you!</h2>
         <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="#open-help-window">Get Help</a>
-            <a href="#footer">Follow Us</a>
+            <a href="index.html" aria-label="Go to home page">Home</a>
+            <a href="#open-help-window" aria-label="Open popup window with a form">Get Help</a>
+            <a href="#footer" aria-label="Go to the footer of the page">Follow Us</a>
         </nav>
     </header>
 
@@ -30,7 +30,7 @@
     <aside id="open-help-window">
         <div id="help-window">
             <form action="#success-message" method="GET">
-                <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+                <a href="#" aria-label="Clickable button to close window"><i class="fa-regular fa-circle-xmark"></i></a>
                 <br>
                 <label for="full-name">Full Name</label>
                 <br>
@@ -51,15 +51,16 @@
     <!-- success message -->
     <aside id="success-message">
         <div id="got-message">
-            <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            <a href="#" aria-label="Clickable button to close window"><i class="fa-regular fa-circle-xmark"></i></a>
             <br>
             <p>We got your question and will reply within a week.</p>
-            <a href="#open-help-window"><i class="fa-solid fa-circle-arrow-left"></i>Back to Form</a>
+            <a href="#open-help-window" aria-label="Clickable button to go back to previous window"><i
+                    class="fa-solid fa-circle-arrow-left"></i>Back to Form</a>
         </div>
     </aside>
     <main>
-        <a href="#" id="back-to-top"><i class="fa-solid fa-arrow-up"></i><br>Top</a>
-        
+        <a href="#" id="back-to-top" aria-label="Back to top button"><i class="fa-solid fa-arrow-up"></i><br>Top</a>
+
         <!-- intro article selection -->
         <section class="main-content">
             <h2>Articles</h2>
@@ -77,17 +78,19 @@
 
             <!-- articles available -->
             <section class="article-selection">
-                <a href="climb-types.html">
+                <a href="climb-types.html"
+                    aria-label="open 'What are the types of Sport Climbing?' article on the same tab">
                     <img src="assets/images/girl-bouldering.webp" alt="A girl climbing a boulder" class="clickable-img">
                     <div class="text-aligned">
                         <h3>What are the types of Sport Climbing?</h3>
                         <p>Find out what is the best kind for you!</p>
                     </div>
-                    
+
                 </a>
-                
-                <a href="shoes.html"> 
-                    <img src="assets/images/holding-shoes.webp" alt="A person holding their shoes" class="clickable-img">
+
+                <a href="shoes.html" aria-label="open 'How to Choose Climbing Shoes?' article on the same tab">
+                    <img src="assets/images/holding-shoes.webp" alt="A person holding their shoes"
+                        class="clickable-img">
                     <div class="text-aligned">
                         <h3>How to Choose Climbing Shoes?</h3>
                         <p>Find out the perfect fit for you!</p>
@@ -98,11 +101,13 @@
 
         <script src="https://kit.fontawesome.com/b80d18dd16.js" crossorigin="anonymous"></script>
     </main>
-
     <footer class="footer" id="footer">
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://x.com/" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://open.spotify.com/" target="_blank" rel="noopener"><i class="fa-brands fa-spotify"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" aria-label="Open instagram page on a new tab"
+            rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/" target="_blank" aria-label="Open X page on a new tab" rel="noopener"><i
+                class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://open.spotify.com/" target="_blank" aria-label="Open spotify page on a new tab"
+            rel="noopener"><i class="fa-brands fa-spotify"></i></a>
     </footer>
 </body>
 

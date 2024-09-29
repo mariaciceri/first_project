@@ -20,9 +20,9 @@
         <h1>Climbing Rox</h1>
         <h2>The ultimate climbing guide</h2>
         <nav class="navbar">
-            <a href="advice.html">Advice</a>
-            <a href="#open-help-window">Get Help</a>
-            <a href="#footer">Follow Us</a>
+            <a href="advice.html" aria-label="Go to advice page">Advice</a>
+            <a href="#open-help-window" aria-label="Open popup window with a form">Get Help</a>
+            <a href="#footer" aria-label="Go to the footer of the page">Follow Us</a>
         </nav>
     </header>
 
@@ -30,7 +30,7 @@
     <aside id="open-help-window">
         <div id="help-window">
             <form action="#success-message" method="GET">
-                <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+                <a href="#" aria-label="Clickable button to close window"><i class="fa-regular fa-circle-xmark"></i></a>
                 <br>
                 <label for="full-name">Full Name</label>
                 <br>
@@ -51,23 +51,23 @@
     <!-- success message -->
     <aside id="success-message">
         <div id="got-message">
-            <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            <a href="#" aria-label="Clickable button to close window"><i class="fa-regular fa-circle-xmark"></i></a>
             <br>
             <p>We got your question and will reply within a week.</p>
-            <a href="#open-help-window"><i class="fa-solid fa-circle-arrow-left"></i>Back to Form</a>
+            <a href="#open-help-window" aria-label="Clickable button to go back to previous window"><i class="fa-solid fa-circle-arrow-left"></i>Back to Form</a>
         </div>
     </aside>
 
     <main>
         <!-- presentation section -->
-        <a href="#" id="back-to-top"><i class="fa-solid fa-arrow-up"></i><br>Top</a>
+        <a href="#" id="back-to-top" aria-label="Back to top button"><i class="fa-solid fa-arrow-up"></i><br>Top</a>
         <section class="main-content">
             <h2>Climbing History</h2>
             <p>Climbing as a sport started in the beginning of the 19th century with single-pitch climbing.
                 Bouldering and multi-pitch climbing came a little bit later, around 1930.
             </p>
             <p>
-                In the 2020 Tokya Olympic Games, sport-climbing had its debut with 3 different categories: boulder, lead
+                In the 2020 Tokyo Olympic Games, sport-climbing had its debut with 3 different categories: boulder, lead
                 and speed climbing.
                 Athletes had to compete in all three categories, which changed in the 2024 Paris Olympics Games, when
                 speed climb got separeted from the other two modalities.
@@ -91,7 +91,7 @@
                     We decided to provide help for others that are starting this new and brilliant
                     sport or someone that wants to step up their climbing game. So we created <em>Climbing Rox</em>
                     to provide advice on different topics, share our own adventures to inspire others and
-                    answer any specific questions you may have (write to us on <a href="#"><em>Get Help</em></a>).
+                    answer any specific questions you may have (write to us on <a href="#" aria-label="back to the top to access get help window"><em>Get Help</em></a>).
                 </p>
                 <p>Go to our <em>Advice</em> section and learn more! You can also listen to our <em>posdcast</em> on
                     Spotify.
@@ -100,11 +100,13 @@
             </div>
         </section>
     </main>
-
     <footer class="footer" id="footer">
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://x.com/" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://open.spotify.com/" target="_blank" rel="noopener"><i class="fa-brands fa-spotify"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" aria-label="Open instagram page on a new tab"
+            rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/" target="_blank" aria-label="Open X page on a new tab" rel="noopener"><i
+                class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://open.spotify.com/" target="_blank" aria-label="Open spotify page on a new tab"
+            rel="noopener"><i class="fa-brands fa-spotify"></i></a>
     </footer>
 
     <script src="https://kit.fontawesome.com/b80d18dd16.js" crossorigin="anonymous"></script>

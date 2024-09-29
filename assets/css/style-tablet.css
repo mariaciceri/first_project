@@ -1,6 +1,6 @@
 @media screen and (min-width:768px) {
 
-    /* header */
+    /* header cover image */
     .cover-home,
     .cover-advice {
         height: 350px;
@@ -20,6 +20,7 @@
         width: 100%;
     }
 
+    /*  navbar properties */
     .navbar {
         width: 100%;
         height: fit-content;
@@ -51,6 +52,7 @@
         font-size: 80%;
     }
 
+    /* feedback popup message */
     #got-message p {
         padding: 10px 0;
     }
@@ -75,7 +77,6 @@
     }
 
     /* advice section */
-
     .article-selection {
         display: flex;
         flex-direction: column;
@@ -116,7 +117,6 @@
     }
 
     /* climbing types article */
-
     #single-pitch,
     #boulder {
         float: left;
@@ -134,8 +134,8 @@
     .styles {
         display: flex;
         flex-wrap: wrap;
-
     }
+
     .styles h3 {
         padding: 0 12px;
         width: 100%;
@@ -147,7 +147,6 @@
     }
 
     /* choosing shoe article */
-
     #shoe-feat {
         height: auto;
         width: 80%;
