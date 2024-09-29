@@ -16,15 +16,6 @@ The pages are responsive to fit better different screen sizes: pictures are rear
 * Desktop/laptop size: in shoe shape section, an extra example picture is available and the content is below the images;
 * In about us, the text collapses to the side of the picture in larger screens (tablet and laptop).
 
-![Screenshot of one section responsiveness in a mobile device](assets/images-doc/advice2.png)
-
-![Screenshot of one section responsiveness in a tablet device](assets/images-doc/advice3.png)
-
-![Screenshot of one section responsiveness in a laptop or desktop](assets/images-doc/advice4.png)
-
-![Screenshot of about us section responsiveness in a mobile device](assets/images-doc/about-us-mobile.png) 
-![Screenshot of about us section responsiveness in a tablet device](assets/images-doc/about-us-tablet.png)
-
 
 ## Validation
 

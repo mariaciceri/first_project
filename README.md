@@ -64,6 +64,8 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + The footer contains links to social media pages that will open in a new tab.
 
 ![Footer with background in black, sentence "Follow us on:" and instagram, X and spotify icons](assets/images-doc/footer.png)
+
+
 ## Home Page
 
 + Introduction of the sport (climbing) and the authors.
@@ -78,17 +80,32 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 ## Advice Section
 ### Introduction
 
-+ A more detailed explanation of the webpage purpose
++ A more detailed explanation of the webpage purpose;
++ Articles available to read are displayed with an image and a title. In larger screens, there is a subtitle and even a hover effect for desktops and laptops.
+
+![Introduction and rticles available to read displayed with an image, a title and a subtitle](assets/images-doc/advice-section.png)
+
+## What are the types of Sport Climbing article
+
++ The article has the same hero section as the advice and other article.
++ Introduction of the content of this article;
++ Direct link to parts of the content;
++ The informational text is separated in three sub-categories and a conclusion;
++ The page is responsive. To see and read more, refer to [TESTING.md](TESTING.md)
+
+![Hero section with name and intro of the article](assets/images-doc/climbing-types-hero.png)
 
 
-### How to choose climbing shoes article
+## How to choose climbing shoes article article
 
++ The article has the same hero section as the advice and other article.
 + Text explaining the purpose of the following content.
 + Direct links to parts of the content and to navbar.
 + The informational text is separated in three sub-categories and a conclusion.
 + The page is responsive. To see and read more, refer to [TESTING.md](TESTING.md)
     
-![Introduction and First paragraph of main content](assets/images-doc/advice1.png)
+![Hero section with name and intro of the article](assets/images-doc/choosing-shoe-hero.png)
+
 
 ### Features left to implement
 
@@ -121,7 +138,7 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 + First boilerplate code was taken from [Love Running](https://github.com/mariaciceri/love-running-practice) project of Code Institute;
 + Popup window inspiration and code was taken from [Dev](https://dev.to/pachicodes/creating-a-css-modal-window-pop-up-step-by-step-1f59) and [Beyond the Sketch](https://www.beyondthesketch.com/developer/css-only-modals/);
-+ The text were inspired by [Rei coop](https://www.rei.com/learn/expert-advice/rock-shoes.html?srsltid=AfmBOorRz0dMXRcebMmKl2vc8nr7PmiiQbzrWg8WhAQbV86vnILnHNRb);
++ The text and advice section were inspired by [Rei coop](https://www.rei.com/learn/expert-advice/rock-shoes.html?srsltid=AfmBOorRz0dMXRcebMmKl2vc8nr7PmiiQbzrWg8WhAQbV86vnILnHNRb);
 + Footer icons were taken from [Font Awesome](https://fontawesome.com/).
 
 
