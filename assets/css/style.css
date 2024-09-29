@@ -280,10 +280,11 @@ footer {
     background-color: #12100E;
     display: flex;
     font-size: 30px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 5px 0;
+
 }
 
-.footer a {
+.footer, .footer a {
     color: #EEE5E9;
 }

@@ -17,7 +17,7 @@
     .article-selection a:hover {
         color: #885A5A;
         transform: scale(1.02);
-        text-shadow: 1px 1px 2px #12100E; 
+        text-shadow: 1px 1px 2px #12100E;
     }
 
     .footer a:hover {
@@ -61,7 +61,9 @@
     }
 
     /* style for images on climbing styles */
-    #single-pitch, #multi-pitch, #boulder {
+    #single-pitch,
+    #multi-pitch,
+    #boulder {
         float: none;
         text-align: justify;
     }
@@ -69,9 +71,12 @@
     .styles p,
     .styles h3 {
         margin: 20px 0;
+        text-align: justify;
     }
 
-    
+    .styles {
+        text-align: center;
+    }
 
     /* style for images on choosing shoe article */
     #moderate-heading {
