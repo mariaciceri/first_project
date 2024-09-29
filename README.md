@@ -145,7 +145,9 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 ### Media
 
-+ Images were taken from [Unsplash](https://unsplash.com/), [Pexels](https://unsplash.com/) and free trial of [Adobe Stock](https://stock.adobe.com/se/search?k=%22climbing+shoes%22&search_type=recentsearch).
++ Images were taken from [Unsplash](https://unsplash.com/), [Pexels](https://unsplash.com/) and free trial of [Adobe Stock](https://stock.adobe.com/se/search?k=%22climbing+shoes%22&search_type=recentsearch);
++ Converting from jpg to webp was done on [Convertio](https://convertio.co/jpg-webp/);
++ Cropping and resizing was done on [Aspose](https://products.aspose.app/imaging/image-crop/webp).
 
 
 
