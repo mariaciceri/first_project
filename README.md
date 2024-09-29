@@ -34,6 +34,9 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + Call to action:
     * _Get Help_ will open a popup window to contact the authors with a question. 
     * _Follow Us_ will scroll down to the footer where the user will find icons to click and be redirect to social midia pages. These pages will open in another tab. 
+
+![Navbar with home, advice, get help and follow us buttons](assets/images-doc/navbar-article.png)
+![Navbar with home, get help and follow us buttons](assets/images-doc/navbar-advice.png)
     
 + Back to the top button is always visible on the right side of both pages. 
 
@@ -49,16 +52,18 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 ![Get help pop up window with full name, email, and text area boxes](assets/images-doc/popup1.png)
 ![Feedback message after submitting a question](assets/images-doc/popup2.png)
 
-### Hero Section for Home and Advice pages.
+### Hero Section.
 
-+ Hero section have a cover background image, a headline, a subtitle and a navbar.
++ Hero sections have a cover background image, a headline, a subtitle and a navbar.
 
+![Background image with a person climbing with a yellow sky](assets/images-doc/home-hero.png)
+![Background image with a person hanging with a climbing tent and with a orange sky in the backgorund](assets/images-doc/hero-the-rest.png)
 
 ### Footer for Home and Advice pages
 
 + The footer contains links to social media pages that will open in a new tab.
 
-
+![Footer with background in black, sentence "Follow us on:" and instagram, X and spotify icons](assets/images-doc/footer.png)
 ## Home Page
 
 + Introduction of the sport (climbing) and the authors.
@@ -88,6 +93,7 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 ### Features left to implement
 
 + Make the popup window open everytime _Get Help_ is mentioned so the user don't need to go up to the navbar.
++ When the user can see the whole page and click on follow us, the footer blinks or gives a feedback showing that the links are there.
 
 
 ## Technologies Used
