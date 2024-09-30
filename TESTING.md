@@ -71,5 +71,10 @@ There weren't many bugs along the way for mobile and tablet screen sizes. For de
 * Bug: Style not applying on my h3 with id=single-pitch because of wrong syntax;
     - Fix: Use proper syntax.
 
+* Bug: Back-to-top button was out of the content area for larger screens;
+    - Fix: using the function calc in CSS to position it to the right in any screen larger than 1200px.
+
+* Bug: Using the function calc made the back-to-top button disappear in screens between 992px and 1200px;
+    - Fix: Create a new media query to apply this change only when the screens are alrger than 100px.
 
 
