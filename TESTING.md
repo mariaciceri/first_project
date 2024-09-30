@@ -19,7 +19,7 @@ The pages are responsive to fit better different screen sizes: pictures are rear
 * Tablet size: in shoe shape section, the text is next to the example image;
 * Desktop/laptop size: in shoe shape section, an extra example picture is available and the content is below the images;
 * In about us, the text collapses to the side of the picture in larger screens (tablet and laptop);
-* Refer to [RESPONSIVE-IMG.md](RESPONSIVE-IMG.md) for screen shoots of the whole pages in different screen sizes.
+* Refer to [RESPONSIVE-GIFS.md](RESPONSIVE-GIFS.md) for screen shoots of the whole pages in different screen sizes.
 
 ## Validation
 

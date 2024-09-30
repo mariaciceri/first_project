@@ -123,6 +123,7 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + [Git](https://git-scm.com/) is the main tool to version control the webpage;
 + [Github](https://github.com/) is where the pages are hosted.
 + [Font Awesome](https://fontawesome.com/) is used for icon throughout the whole project.
++ [Licecap](https://www.cockos.com/licecap/) is used to create gifs to show responsiveness.
 
 ## Deployment
 
