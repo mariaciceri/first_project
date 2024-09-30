@@ -1,25 +1,25 @@
 # TESTING
 
-To ensure that the webpage works in all platforms and is responsive in different divices, a series of tests were run:
+To ensure that the webpage works on all platforms and is responsive on different devices, a series of tests were run:
 
 ## Compatibility
 
 * The page was tested on Chrome, Firefox and Safari and it showed the same results. For content disposition and responsive aspects.
-* The page was also opened and all buttons were clicked in a real tablet, a phone and two different computers with different operational systems. The form was submitted in all these devices also.
+* The page was also opened and all buttons were clicked on a real tablet, a phone and two different computers with different operational systems. The form was submitted on all these devices also.
 
 ## Manual Testing
 
-* A friend tested on her mobile and could not understand the follow up button.
-    - To remedy that, it was added a sentence to the footer to indicate to the user that the links are there.
+* A friend tested on her mobile and could not understand the follow-up button.
+    - To remedy that, was added a sentence to the footer to indicate to the user that the links are there.
 
 ## Responsiveness
 
-The pages are responsive to fit better different screen sizes: pictures are rearranged to have a better layout.
+The pages are responsive to fit different screen sizes: pictures are rearranged to have a better layout.
 
-* Tablet size: in shoe shape section, the text is next to the example image;
+* Tablet size: in the shoe shape section, the text is next to the example image;
 * Desktop/laptop size: in shoe shape section, an extra example picture is available and the content is below the images;
-* In about us, the text collapses to the side of the picture in larger screens (tablet and laptop);
-* Refer to [RESPONSIVE-GIFS.md](RESPONSIVE-GIFS.md) for screen shoots of the whole pages in different screen sizes.
+* In About Us, the text collapses to the side of the picture On larger screens (tablet and laptop);
+* Refer to [RESPONSIVE-GIFS.md](RESPONSIVE-GIFS.md) for screen shots of the whole pages in different screen sizes.
 
 ## Validation
 
@@ -40,7 +40,7 @@ The pages are responsive to fit better different screen sizes: pictures are rear
 
 ## Lighthouse
 
-* Using lighthouse in devtools it is confirmed that the overall perfomance is efficiently, accessible and colors and fonts chosen are readable.
+* Using lighthouse in dev tools it is confirmed that the overall performance is efficient and accessible and colors and fonts chosen are readable.
 
     - Home page
 
@@ -54,27 +54,27 @@ The pages are responsive to fit better different screen sizes: pictures are rear
 
     ![Screenshot of the perfomance ran on lighthouse for the climbing styles page](assets/images-doc/performance-style-article.png)
 
-    - Choosing Shoe article
+    - Choosing Shoes article
 
     ![Screenshot of the perfomance ran on lighthouse for the advice page](assets/images-doc/performance-shoes-article.png)
 
 ## Bugs
 
-There weren't many bugs along the way for mobile and tablet screen sizes. For desktop the following bug was spotted and fixed:
+The majority of bugs were found for larger screens, but even for tablet size, there were a couple.
 
-* Bug: When the two images were seen in larger screens than 13", they were not centralized. 
-    - Fix: set the imagine class to inline block and the div class to align the text centered. Realign the text and title to the left.
+* Bug: When the two images were shown on desktop screen sizes, they were not centralized. 
+    - Fix: set the image class to inline-block and the div class to align the text centered. Realign the text and title to the left.
 
-* Bug: In advice section, in the anchor element, the text was collapsing on top of each other while the picture was not.
+* Bug: In the advice section, in the anchor element, the text was collapsing on top of each other while the picture was not.
     - Fix: Remove position: relative in parent element and position: absolute in the text class.
 
-* Bug: Style not applying on my h3 with id=single-pitch because of wrong syntax;
+* Bug: Style not applying on the h3 with id=single-pitch because of wrong syntax;
     - Fix: Use proper syntax.
 
 * Bug: Back-to-top button was out of the content area for larger screens;
-    - Fix: using the function calc in CSS to position it to the right in any screen larger than 1200px.
+    - Fix: using the function calc in CSS to position it to the right on any screen larger than 1200px.
 
 * Bug: Using the function calc made the back-to-top button disappear in screens between 992px and 1200px;
-    - Fix: Create a new media query to apply this change only when the screens are alrger than 100px.
+    - Fix: Create a new media query to apply this change only when the screens are larger than 100px.
 
 
