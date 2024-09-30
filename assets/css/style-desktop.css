@@ -5,6 +5,13 @@
         max-width: 1300px;
         margin: 0 auto;
         background-color: #fbf6ee;
+        align-content: center;
+    }
+
+    /* popup windows */
+
+    #open-help-window, #success-message {
+        width: 1300px;
     }
 
     /* hover effects */

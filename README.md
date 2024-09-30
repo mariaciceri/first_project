@@ -126,12 +126,19 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 
 ## Deployment
 
+### Deployment to GitHub Pages
+
 + The page was deployed at early stages to GitHub pages. The steps to deploy are as follows:
     * In the GitHub [repository](https://github.com/mariaciceri/first_project), navigate to the Settings tab;
     * On the right-hand side in the menu, click on pages;
     * In Source check if "deploy from branch" is selected, then below it, in Branch, select "main" and save it;
     * To access it for the first time, go back to Code in the main navbar and on the left-hand side scroll down to deployments, click there and open the page;
 
+### Local Deployment
+
++ In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+git clone https://github.com/mariaciceri/first_project.git
 
 ## Credits
 
