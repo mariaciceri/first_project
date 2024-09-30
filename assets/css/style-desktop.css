@@ -14,6 +14,11 @@
         width: 1300px;
     }
 
+    /* back to top */
+    #back-to-top {
+        right: calc((100% - 1300px) / 2 + 10px);
+    }
+
     /* hover effects */
     .navbar a:hover {
         color: #885A5A;
