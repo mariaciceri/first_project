@@ -71,6 +71,10 @@ The pages are responsive to fit different screen sizes: pictures are rearranged 
 
 ## Validation
 
+* Two more CSS files were created to increase readability:
+    - One for styles from tablet size screens;
+    - Another for styles from desktop screen sizes.
+
 * HTML
     - No errors or warnings were found when running the code on the official W3C validator.
 
@@ -131,5 +135,8 @@ The majority of bugs were found for larger screens, but even for tablet size, th
 
 * Bug: Using the function calc made the back-to-top button disappear in screens between 992px and 1200px;
     - Fix: Create a new media query to apply this change only when the screens are larger than 100px.
+
+* Bug: Commits beginning with lowercase verbs that should be uppercase;
+    - Fix: Will properly write commit messages.
 
 
