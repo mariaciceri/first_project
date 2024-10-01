@@ -57,6 +57,19 @@
         padding: 10px 0;
     }
 
+    /* main content */
+    .main-content {
+        margin: 1.5em;
+        padding: 1.5em;
+        text-align: justify;
+        line-height: 1.5em;
+    }
+
+    .main-content p {
+        padding: 0.8em 0.8em;
+    }
+
+
     /* about us content */
     #about-us {
         display: block;
@@ -88,7 +101,7 @@
         color: #12100E;
         display: flex;
         align-items: center;
-
+        padding: 2em 0;
     }
 
     .text-aligned {
