@@ -91,7 +91,6 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + Introduction of the content of this article;
 + Direct link to parts of the content;
 + The informational text is separated into three sub-categories and a conclusion;
-+ The page is responsive. To see and read more, refer to [TESTING.md](TESTING.md)
 
 ![Hero section with name and intro of the article](assets/images-doc/climbing-types-hero.png)
 
@@ -102,7 +101,6 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + Text explaining the purpose of the following content.
 + Direct links to parts of the content and to the navbar.
 + The informational text is separated into three sub-categories and a conclusion.
-+ The page is responsive. To see and read more, refer to [TESTING.md](TESTING.md)
     
 ![Hero section with name and intro of the article](assets/images-doc/choosing-shoe-hero.png)
 
@@ -122,6 +120,7 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + [Gitpod](https://gitpod.io/) with [VScode](https://code.visualstudio.com/) desktop extension is the IDE for the project;
 + [Git](https://git-scm.com/) is the main tool to version control the webpage;
 + [Github](https://github.com/) is where the pages are hosted.
++ [Github Pages](https://pages.github.com/) is where the website was deployed;
 + [Font Awesome](https://fontawesome.com/) is used for icons throughout the entire project.
 + [Licecap](https://www.cockos.com/licecap/) is used to create gifs to show responsiveness.
 
@@ -140,6 +139,10 @@ Access the webpage [here](https://mariaciceri.github.io/first_project/).
 + In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
 git clone https://github.com/mariaciceri/first_project.git
+
+## Responsiveness
+
+    + All the pages are responsive. To see and read more, refer to [TESTING.md](TESTING.md)
 
 ## Credits
 
