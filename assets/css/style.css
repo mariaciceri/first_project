@@ -193,7 +193,9 @@ main h2 {
     right: 5px;
     position: fixed;
     text-align: center;
-    bottom: 46px;
+    bottom: 3em;
+    background-color: #faf0df;
+    border-radius: 20%;
 }
 
 /* home page */
