@@ -62,11 +62,6 @@
         display: block;
     }
 
-    #first-paragraph {
-        width: 100%;
-        margin-top: 20px;
-    }
-
     #group-pic {
         float: left;
         height: 50%;
@@ -174,6 +169,7 @@
         padding: 0 12px;
     }
 
+    /* footer */
     .footer p {
         display: block;
     }
